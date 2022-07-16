@@ -61,14 +61,14 @@ h1 {
 }
 
 
-.rainbow span{
-  animation: wave 1s linear var(--n) infinite forwards running, rainbow 3s linear var(--n) infinite forwards running;
+.rainbow {
+  animation:/*  wave 1s linear var(--n) infinite forwards running, */ rainbow-anim 3s linear infinite forwards running;
   position: relative;
 }
 
 @media screen and (prefers-reduced-motion: reduce)
 {
-  .rainbow span {
+  .rainbow {
     animation: none;
   }
 }
@@ -81,7 +81,7 @@ h1 {
   100% {top: 0px;}
 }
 
-@keyframes rainbow{
+@keyframes rainbow-anim {
   0% {color: var(--red);}
   17% {color: var(--orange);}
   33% {color: var(--yellow);}

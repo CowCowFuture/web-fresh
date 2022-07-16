@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div>
       <Head/>
-      <h1>ccf site</h1>
+      <h1 class="rainbow">ccf site</h1>
       <Links/>
       <a href="/projects">my projects</a>
     </div>

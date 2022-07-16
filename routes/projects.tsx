@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <div>
       <Head/>
-      <h1>ccf projects</h1>
+      <h1 class="rainbow">ccf projects</h1>
     </div>
   );
 }
