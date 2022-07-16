@@ -24,6 +24,7 @@ export default function Home() {
       <Head/>
       <h1>ccf site</h1>
       <Links/>
+      <a href="/projects">my projects</a>
     </div>
   );
 }
