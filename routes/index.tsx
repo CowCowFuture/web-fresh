@@ -11,10 +11,15 @@ export const Head = () => (
 
 export const Links = () => (
   <div>
-    <p>osu! <a href="https://osu.ppy.sh/users/28964454">CowCowFuture</a></p>
-    <p>github: <a href="https://www.github.com/CowCowFuture/">CowCowFuture</a></p>
-    <p>reddit: <a href="https://www.reddit.com/u/CowCowFuture/">/u/CowCowFuture/</a></p>
-    <p>twitter: <a href="https://youtu.be/dQw4w9WgXcQ">@CowCowFuture</a></p>
+    <p>
+      osu! <a href="https://osu.ppy.sh/users/28964454">CowCowFuture</a>
+      <br/>
+      github: <a href="https://www.github.com/CowCowFuture/">CowCowFuture</a>
+      <br/>
+      reddit: <a href="https://www.reddit.com/u/CowCowFuture/">/u/CowCowFuture/</a>
+      <br/>
+      twitter: <a href="https://youtu.be/dQw4w9WgXcQ">@CowCowFuture</a>
+    </p>
   </div>
 )
 
